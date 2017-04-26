@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26BAE54E1EB1339400F42A52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26BAE54D1EB1339400F42A52 /* AppDelegate.swift */; };
+		26BAE5501EB1339400F42A52 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26BAE54F1EB1339400F42A52 /* ViewController.swift */; };
+		26BAE5531EB1339400F42A52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26BAE5511EB1339400F42A52 /* Main.storyboard */; };
+		26BAE5551EB1339500F42A52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26BAE5541EB1339500F42A52 /* Assets.xcassets */; };
+		26BAE5581EB1339500F42A52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26BAE5561EB1339500F42A52 /* LaunchScreen.storyboard */; };
+		26BAE5631EB1339500F42A52 /* lab9TinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26BAE5621EB1339500F42A52 /* lab9TinderTests.swift */; };
+		26BAE56E1EB1339500F42A52 /* lab9TinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26BAE56D1EB1339500F42A52 /* lab9TinderUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		26BAE55F1EB1339500F42A52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26BAE5421EB1339400F42A52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26BAE5491EB1339400F42A52;
+			remoteInfo = lab9Tinder;
+		};
+		26BAE56A1EB1339500F42A52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26BAE5421EB1339400F42A52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26BAE5491EB1339400F42A52;
+			remoteInfo = lab9Tinder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		26BAE54A1EB1339400F42A52 /* lab9Tinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lab9Tinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26BAE54D1EB1339400F42A52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		26BAE54F1EB1339400F42A52 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		26BAE5521EB1339400F42A52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		26BAE5541EB1339500F42A52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26BAE5571EB1339500F42A52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		26BAE5591EB1339500F42A52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26BAE55E1EB1339500F42A52 /* lab9TinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lab9TinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26BAE5621EB1339500F42A52 /* lab9TinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lab9TinderTests.swift; sourceTree = "<group>"; };
+		26BAE5641EB1339500F42A52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26BAE5691EB1339500F42A52 /* lab9TinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lab9TinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26BAE56D1EB1339500F42A52 /* lab9TinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lab9TinderUITests.swift; sourceTree = "<group>"; };
+		26BAE56F1EB1339500F42A52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26BAE5471EB1339400F42A52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26BAE55B1EB1339500F42A52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26BAE5661EB1339500F42A52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26BAE5411EB1339400F42A52 = {
+			isa = PBXGroup;
+			children = (
+				26BAE54C1EB1339400F42A52 /* lab9Tinder */,
+				26BAE5611EB1339500F42A52 /* lab9TinderTests */,
+				26BAE56C1EB1339500F42A52 /* lab9TinderUITests */,
+				26BAE54B1EB1339400F42A52 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26BAE54B1EB1339400F42A52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26BAE54A1EB1339400F42A52 /* lab9Tinder.app */,
+				26BAE55E1EB1339500F42A52 /* lab9TinderTests.xctest */,
+				26BAE5691EB1339500F42A52 /* lab9TinderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26BAE54C1EB1339400F42A52 /* lab9Tinder */ = {
+			isa = PBXGroup;
+			children = (
+				26BAE54D1EB1339400F42A52 /* AppDelegate.swift */,
+				26BAE54F1EB1339400F42A52 /* ViewController.swift */,
+				26BAE5511EB1339400F42A52 /* Main.storyboard */,
+				26BAE5541EB1339500F42A52 /* Assets.xcassets */,
+				26BAE5561EB1339500F42A52 /* LaunchScreen.storyboard */,
+				26BAE5591EB1339500F42A52 /* Info.plist */,
+			);
+			path = lab9Tinder;
+			sourceTree = "<group>";
+		};
+		26BAE5611EB1339500F42A52 /* lab9TinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				26BAE5621EB1339500F42A52 /* lab9TinderTests.swift */,
+				26BAE5641EB1339500F42A52 /* Info.plist */,
+			);
+			path = lab9TinderTests;
+			sourceTree = "<group>";
+		};
+		26BAE56C1EB1339500F42A52 /* lab9TinderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				26BAE56D1EB1339500F42A52 /* lab9TinderUITests.swift */,
+				26BAE56F1EB1339500F42A52 /* Info.plist */,
+			);
+			path = lab9TinderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26BAE5491EB1339400F42A52 /* lab9Tinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26BAE5721EB1339500F42A52 /* Build configuration list for PBXNativeTarget "lab9Tinder" */;
+			buildPhases = (
+				26BAE5461EB1339400F42A52 /* Sources */,
+				26BAE5471EB1339400F42A52 /* Frameworks */,
+				26BAE5481EB1339400F42A52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lab9Tinder;
+			productName = lab9Tinder;
+			productReference = 26BAE54A1EB1339400F42A52 /* lab9Tinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		26BAE55D1EB1339500F42A52 /* lab9TinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26BAE5751EB1339500F42A52 /* Build configuration list for PBXNativeTarget "lab9TinderTests" */;
+			buildPhases = (
+				26BAE55A1EB1339500F42A52 /* Sources */,
+				26BAE55B1EB1339500F42A52 /* Frameworks */,
+				26BAE55C1EB1339500F42A52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26BAE5601EB1339500F42A52 /* PBXTargetDependency */,
+			);
+			name = lab9TinderTests;
+			productName = lab9TinderTests;
+			productReference = 26BAE55E1EB1339500F42A52 /* lab9TinderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		26BAE5681EB1339500F42A52 /* lab9TinderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26BAE5781EB1339500F42A52 /* Build configuration list for PBXNativeTarget "lab9TinderUITests" */;
+			buildPhases = (
+				26BAE5651EB1339500F42A52 /* Sources */,
+				26BAE5661EB1339500F42A52 /* Frameworks */,
+				26BAE5671EB1339500F42A52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26BAE56B1EB1339500F42A52 /* PBXTargetDependency */,
+			);
+			name = lab9TinderUITests;
+			productName = lab9TinderUITests;
+			productReference = 26BAE5691EB1339500F42A52 /* lab9TinderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26BAE5421EB1339400F42A52 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Sarah Gemperle";
+				TargetAttributes = {
+					26BAE5491EB1339400F42A52 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					26BAE55D1EB1339500F42A52 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 26BAE5491EB1339400F42A52;
+					};
+					26BAE5681EB1339500F42A52 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 26BAE5491EB1339400F42A52;
+					};
+				};
+			};
+			buildConfigurationList = 26BAE5451EB1339400F42A52 /* Build configuration list for PBXProject "lab9Tinder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26BAE5411EB1339400F42A52;
+			productRefGroup = 26BAE54B1EB1339400F42A52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26BAE5491EB1339400F42A52 /* lab9Tinder */,
+				26BAE55D1EB1339500F42A52 /* lab9TinderTests */,
+				26BAE5681EB1339500F42A52 /* lab9TinderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26BAE5481EB1339400F42A52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26BAE5581EB1339500F42A52 /* LaunchScreen.storyboard in Resources */,
+				26BAE5551EB1339500F42A52 /* Assets.xcassets in Resources */,
+				26BAE5531EB1339400F42A52 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26BAE55C1EB1339500F42A52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26BAE5671EB1339500F42A52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26BAE5461EB1339400F42A52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26BAE5501EB1339400F42A52 /* ViewController.swift in Sources */,
+				26BAE54E1EB1339400F42A52 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26BAE55A1EB1339500F42A52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26BAE5631EB1339500F42A52 /* lab9TinderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26BAE5651EB1339500F42A52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26BAE56E1EB1339500F42A52 /* lab9TinderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26BAE5601EB1339500F42A52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26BAE5491EB1339400F42A52 /* lab9Tinder */;
+			targetProxy = 26BAE55F1EB1339500F42A52 /* PBXContainerItemProxy */;
+		};
+		26BAE56B1EB1339500F42A52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26BAE5491EB1339400F42A52 /* lab9Tinder */;
+			targetProxy = 26BAE56A1EB1339500F42A52 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		26BAE5511EB1339400F42A52 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26BAE5521EB1339400F42A52 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		26BAE5561EB1339500F42A52 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26BAE5571EB1339500F42A52 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26BAE5701EB1339500F42A52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		26BAE5711EB1339500F42A52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26BAE5731EB1339500F42A52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = lab9Tinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = codepath.lab9Tinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		26BAE5741EB1339500F42A52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = lab9Tinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = codepath.lab9Tinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		26BAE5761EB1339500F42A52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = lab9TinderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = codepath.lab9TinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lab9Tinder.app/lab9Tinder";
+			};
+			name = Debug;
+		};
+		26BAE5771EB1339500F42A52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = lab9TinderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = codepath.lab9TinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lab9Tinder.app/lab9Tinder";
+			};
+			name = Release;
+		};
+		26BAE5791EB1339500F42A52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = lab9TinderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = codepath.lab9TinderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = lab9Tinder;
+			};
+			name = Debug;
+		};
+		26BAE57A1EB1339500F42A52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = lab9TinderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = codepath.lab9TinderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = lab9Tinder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26BAE5451EB1339400F42A52 /* Build configuration list for PBXProject "lab9Tinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26BAE5701EB1339500F42A52 /* Debug */,
+				26BAE5711EB1339500F42A52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26BAE5721EB1339500F42A52 /* Build configuration list for PBXNativeTarget "lab9Tinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26BAE5731EB1339500F42A52 /* Debug */,
+				26BAE5741EB1339500F42A52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		26BAE5751EB1339500F42A52 /* Build configuration list for PBXNativeTarget "lab9TinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26BAE5761EB1339500F42A52 /* Debug */,
+				26BAE5771EB1339500F42A52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		26BAE5781EB1339500F42A52 /* Build configuration list for PBXNativeTarget "lab9TinderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26BAE5791EB1339500F42A52 /* Debug */,
+				26BAE57A1EB1339500F42A52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26BAE5421EB1339400F42A52 /* Project object */;
+}
