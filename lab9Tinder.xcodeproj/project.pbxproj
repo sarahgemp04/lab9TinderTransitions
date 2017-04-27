@@ -14,6 +14,8 @@
 		26BAE5581EB1339500F42A52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26BAE5561EB1339500F42A52 /* LaunchScreen.storyboard */; };
 		26BAE5631EB1339500F42A52 /* lab9TinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26BAE5621EB1339500F42A52 /* lab9TinderTests.swift */; };
 		26BAE56E1EB1339500F42A52 /* lab9TinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26BAE56D1EB1339500F42A52 /* lab9TinderUITests.swift */; };
+		26BAE57C1EB134A200F42A52 /* CardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26BAE57B1EB134A200F42A52 /* CardsViewController.swift */; };
+		26BAE57E1EB15CBB00F42A52 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26BAE57D1EB15CBB00F42A52 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		26BAE5691EB1339500F42A52 /* lab9TinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lab9TinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		26BAE56D1EB1339500F42A52 /* lab9TinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lab9TinderUITests.swift; sourceTree = "<group>"; };
 		26BAE56F1EB1339500F42A52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26BAE57B1EB134A200F42A52 /* CardsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardsViewController.swift; sourceTree = "<group>"; };
+		26BAE57D1EB15CBB00F42A52 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +103,9 @@
 			children = (
 				26BAE54D1EB1339400F42A52 /* AppDelegate.swift */,
 				26BAE54F1EB1339400F42A52 /* ViewController.swift */,
+				26BAE57B1EB134A200F42A52 /* CardsViewController.swift */,
 				26BAE5511EB1339400F42A52 /* Main.storyboard */,
+				26BAE57D1EB15CBB00F42A52 /* ProfileViewController.swift */,
 				26BAE5541EB1339500F42A52 /* Assets.xcassets */,
 				26BAE5561EB1339500F42A52 /* LaunchScreen.storyboard */,
 				26BAE5591EB1339500F42A52 /* Info.plist */,
@@ -261,6 +267,8 @@
 			files = (
 				26BAE5501EB1339400F42A52 /* ViewController.swift in Sources */,
 				26BAE54E1EB1339400F42A52 /* AppDelegate.swift in Sources */,
+				26BAE57E1EB15CBB00F42A52 /* ProfileViewController.swift in Sources */,
+				26BAE57C1EB134A200F42A52 /* CardsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
